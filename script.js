@@ -181,3 +181,17 @@ init();
 // }
 
 // init();
+
+
+const dog = {
+  name: "Luna",
+  age: 10,
+  breed: "Havanese",
+  location: {
+    city: "Seattle",
+    state: "WA",
+  },
+};
+
+const objString = JSON.stringify(dog);
+console.log(objString);s
